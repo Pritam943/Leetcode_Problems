@@ -16,8 +16,6 @@ class Solution {
 
             while (left < right) {
 
-                List<Integer> list = new ArrayList<>();
-
                 int sum = nums[i] + nums[left] + nums[right];
 
                 if (sum == 0) {
