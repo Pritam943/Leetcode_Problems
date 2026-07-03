@@ -2,48 +2,46 @@ class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
 
         int n = nums.length;
+        List<List<Integer>> ansList = new ArrayList<>();
 
         Arrays.sort(nums);
 
-        List<List<Integer>> ansList = new ArrayList<>();
-
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n-1; i++) {
 
             if (i > 0 && nums[i] == nums[i - 1])
                 continue;
 
             for (int j = i + 1; j < n; j++) {
 
-                if (j > i+1 && nums[j] == nums[j - 1])
+                if (j > i + 1 && nums[j] == nums[j - 1])
                     continue;
 
-                int k = j + 1;
-                int l = n - 1;
+                int left = j + 1;
+                int right = n - 1;
 
-                while (k < l) {
+                while (left < right) {
 
-                    long sum = (long) nums[i] + nums[j] + nums[k] + nums[l];
+                    long sum = (long) nums[i] + nums[j] + nums[left] + nums[right];
 
                     if (sum == target) {
 
-                        List<Integer> list = Arrays.asList(nums[i], nums[j], nums[k], nums[l]);
-                        ansList.add(list);
-                        k++;
-                        l--;
+                        ansList.add(Arrays.asList(nums[i], nums[j], nums[left], nums[right]));
+                        left++;
+                        right--;
 
-                        while (k < l && nums[k] == nums[k - 1])
-                            k++;
-                        while (k < l && nums[l] == nums[l + 1])
-                            l--;
-                    }
-                    else if(sum < target) k++;
-                    else{
-                        l--;
-                    }
+                        while (left < right && nums[left] == nums[left - 1])
+                            left++;
+                        while (left < right && nums[right] == nums[right + 1])
+                            right--;
+                    } else if (sum < target)
+                        left++;
+                    else
+                        right--;
                 }
+
             }
         }
-        
+
         return ansList;
     }
 }
