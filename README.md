@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Pritam943/Leetcode_Problems/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Pritam943/Leetcode_Problems/tree/master/0018-4sum) |
+| [0031-next-permutation](https://github.com/Pritam943/Leetcode_Problems/tree/master/0031-next-permutation) |
 | [0053-maximum-subarray](https://github.com/Pritam943/Leetcode_Problems/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/Pritam943/Leetcode_Problems/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/Pritam943/Leetcode_Problems/tree/master/0118-pascals-triangle) |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Pritam943/Leetcode_Problems/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Pritam943/Leetcode_Problems/tree/master/0018-4sum) |
+| [0031-next-permutation](https://github.com/Pritam943/Leetcode_Problems/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Pritam943/Leetcode_Problems/tree/master/0075-sort-colors) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Pritam943/Leetcode_Problems/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
