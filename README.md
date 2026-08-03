@@ -146,4 +146,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Pritam943/Leetcode_Problems/tree/master/0410-split-array-largest-sum) |
+## String
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/Pritam943/Leetcode_Problems/tree/master/1021-remove-outermost-parentheses) |
+## Stack
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/Pritam943/Leetcode_Problems/tree/master/1021-remove-outermost-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/Pritam943/Leetcode_Problems/tree/master/1021-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
