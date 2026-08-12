@@ -1,28 +1,26 @@
 class Solution {
     public String removeOuterParentheses(String s) {
 
-        int counter = 0;
+        int count = 0;
         String ans = "";
 
         for(char ch : s.toCharArray()){
 
              if(ch == '('){
-
-                  if(counter!=0){
-                       counter++;
-                       ans += ch;
-                  }
-                  else{
-                    counter++;
-                  }
-             }
-             else if(ch == ')'){
-
-                 counter = counter-1;
                  
-                 if(counter!=0){
-                     ans += ch;
+                 if(count != 0){
+                    count++;
+                    ans += ch;
                  }
+                 else{
+                    count++;
+                 }
+             }
+             else{
+                count--;
+                if(count != 0){
+                    ans += ch;
+                }
              }
         }
 
