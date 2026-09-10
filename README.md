@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/Pritam943/Leetcode_Problems/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/Pritam943/Leetcode_Problems/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/Pritam943/Leetcode_Problems/tree/master/0075-sort-colors) |
+| [0141-linked-list-cycle](https://github.com/Pritam943/Leetcode_Problems/tree/master/0141-linked-list-cycle) |
 | [0876-middle-of-the-linked-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0876-middle-of-the-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Pritam943/Leetcode_Problems/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Pritam943/Leetcode_Problems/tree/master/0013-roman-to-integer) |
 | [0073-set-matrix-zeroes](https://github.com/Pritam943/Leetcode_Problems/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Pritam943/Leetcode_Problems/tree/master/0128-longest-consecutive-sequence) |
+| [0141-linked-list-cycle](https://github.com/Pritam943/Leetcode_Problems/tree/master/0141-linked-list-cycle) |
 | [0205-isomorphic-strings](https://github.com/Pritam943/Leetcode_Problems/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Pritam943/Leetcode_Problems/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Pritam943/Leetcode_Problems/tree/master/0242-valid-anagram) |
@@ -199,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Pritam943/Leetcode_Problems/tree/master/0141-linked-list-cycle) |
 | [0203-remove-linked-list-elements](https://github.com/Pritam943/Leetcode_Problems/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0876-middle-of-the-linked-list) |
@@ -207,4 +210,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/Pritam943/Leetcode_Problems/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0206-reverse-linked-list) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Pritam943/Leetcode_Problems/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
