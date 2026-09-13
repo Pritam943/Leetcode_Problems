@@ -14,7 +14,7 @@ class Solution {
         if (head.next == null)
             return null;
 
-        int count = 1;
+        int count = 0;
         ListNode curr = head;
 
         while (curr != null) {
@@ -22,23 +22,21 @@ class Solution {
             curr = curr.next;
         }
 
-        count = count - n;
+        if (count == n)
+            return head.next;
 
         curr = head;
-        ListNode prev = null;
+        int k = 0;
 
-        while (curr != null) {
-
-            count--;
-
-            if (count == 0) {
-                if (prev == null)
-                    return curr.next;
-                prev.next = curr.next;
-                break;
-            }
-            prev = curr;
+        while (k < count - n - 1) {
             curr = curr.next;
+            k++;
+        }
+
+        if (curr.next == null || curr.next.next == null) {
+            curr.next = null;
+        } else {
+            curr.next = curr.next.next;
         }
 
         return head;
