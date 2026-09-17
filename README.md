@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Pritam943/Leetcode_Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Pritam943/Leetcode_Problems/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0148-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Pritam943/Leetcode_Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0234-palindrome-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Pritam943/Leetcode_Problems/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/Pritam943/Leetcode_Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Pritam943/Leetcode_Problems/tree/master/0142-linked-list-cycle-ii) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Pritam943/Leetcode_Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0205-isomorphic-strings](https://github.com/Pritam943/Leetcode_Problems/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/Pritam943/Leetcode_Problems/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Pritam943/Leetcode_Problems/tree/master/0242-valid-anagram) |
@@ -215,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/Pritam943/Leetcode_Problems/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Pritam943/Leetcode_Problems/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0148-sort-list) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Pritam943/Leetcode_Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0203-remove-linked-list-elements](https://github.com/Pritam943/Leetcode_Problems/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Pritam943/Leetcode_Problems/tree/master/0234-palindrome-linked-list) |
