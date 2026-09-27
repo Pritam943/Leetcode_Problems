@@ -14,40 +14,37 @@ class Solution {
         ListNode curr1 = list1;
         ListNode curr2 = list2;
 
-        ListNode dummy = new ListNode(-1);
-        ListNode prev = dummy;
+        ListNode dummyNode = new ListNode(-1);
+        ListNode temp = dummyNode;
 
         while (curr1 != null && curr2 != null) {
 
             if (curr1.val <= curr2.val) {
-                ListNode temp = new ListNode(curr1.val);
-                prev.next = temp;
-                prev = temp;
-                curr1 = curr1.next;
-            } else {
 
-                ListNode temp = new ListNode(curr2.val);
-                prev.next = temp;
-                prev = temp;
+                temp.next = curr1;
+                curr1 = curr1.next;
+                temp = temp.next;
+            } else {
+                temp.next = curr2;
                 curr2 = curr2.next;
+                temp = temp.next;
             }
         }
 
         while (curr1 != null) {
-            ListNode temp = new ListNode(curr1.val);
-            prev.next = temp;
-            prev = temp;
+
+            temp.next = curr1;
             curr1 = curr1.next;
+            temp = temp.next;
         }
 
         while (curr2 != null) {
-            ListNode temp = new ListNode(curr2.val);
-            prev.next = temp;
-            prev = temp;
+
+            temp.next = curr2;
             curr2 = curr2.next;
+            temp = temp.next;
         }
 
-        return dummy.next;
-
+        return dummyNode.next;
     }
 }
