@@ -3,22 +3,20 @@ class Solution {
 
         List<List<Integer>> ans = new ArrayList<>();
 
-        findSubsets(0, nums, ans, new ArrayList<>());
+        foundSubset(0, nums, new ArrayList<>(), ans);
         return ans;
     }
 
-    public void findSubsets(int ind, int[] arr, List<List<Integer>> ans, List<Integer> ds) {
+    public void foundSubset(int index, int[] nums, List<Integer> list, List<List<Integer>> ans){
 
-        if (ind == arr.length) {
-
-            ans.add(new ArrayList<>(ds));
+        if(index == nums.length){
+            ans.add(new ArrayList<>(list));
             return;
         }
 
-        ds.add(arr[ind]);
-        findSubsets(ind + 1, arr, ans, ds);
-        ds.remove(ds.size() - 1);
-        findSubsets(ind + 1, arr, ans, ds);
-
+        list.add(nums[index]);
+        foundSubset(index+1, nums, list, ans);
+        list.remove(list.size()-1);
+        foundSubset(index+1, nums, list, ans);
     }
 }
